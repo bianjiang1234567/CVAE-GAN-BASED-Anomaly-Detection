@@ -1,4 +1,4 @@
-# GANomaly
+# CVAE-GAN-BASED Anomaly Detection
 
 This repository contains PyTorch implementation of the following paper: A Novel and Efficient CVAE-GAN-BASED Approach with Informative Manifold for Semi-Supervised Anomaly Detection
 
@@ -10,7 +10,7 @@ This repository contains PyTorch implementation of the following paper: A Novel 
 ## Installation
 1. First clone the repository
    ```
-   git clone 
+   git clone git@github.com:bianjiang1234567/CVAE-GAN-BASED-Anomaly-Detection.git
    ```
 2. Install PyTorch and torchvision from [https://pytorch.org](https://pytorch.org/)
 3. Install the dependencies.
