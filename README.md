@@ -28,7 +28,7 @@ For CIFAR experiments:
 python ../train.py --dataset cifar10 --isize 32 --nc 3 --nz=300 --niter 100 --anomaly_class "plane" --manualseed 0 --display --save_test_images --ndf=128 --ngf=128 --gpu_ids 1
 ```
 plane is the anomaly class, can be replaced by: car, bird, cat, deer, dog, frog, horse, ship, truck.
-
+To obtain better results, the weights of anomaly score can be adjusted.
 
 ## Training
 To list the arguments, run the following command:
@@ -114,6 +114,8 @@ optional arguments:
   --alpha               alpha to weight l1 loss. default=500 (default: 50)
 
 ```
+
+![Experimental results in CIFAR10 dataset. (a) Input samples of normal classes in testing set. Deers are designated as anomalous class. (b) Reconstruction results of (a). (c) Input samples of abnormal class deer in testing set. (d) Reconstruction results of (c).]
 
 ## Reference
 ArXiv
