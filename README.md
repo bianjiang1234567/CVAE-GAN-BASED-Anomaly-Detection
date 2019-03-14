@@ -115,7 +115,6 @@ optional arguments:
 
 ```
 
-![Experimental results in CIFAR10 dataset. (a) Input samples of normal classes in testing set. Deers are designated as anomalous class. (b) Reconstruction results of (a). (c) Input samples of abnormal class deer in testing set. (d) Reconstruction results of (c).](https://github.com/bianjiang1234567/CVAE-GAN-BASED-Anomaly-Detection/blob/master/cifarreconstruction.png)
+![1](https://github.com/bianjiang1234567/CVAE-GAN-BASED-Anomaly-Detection/blob/master/cifarreconstruction.png)
+Experimental results in CIFAR10 dataset. (a) Input samples of normal classes in testing set. Deers are designated as anomalous class. (b) Reconstruction results of (a). (c) Input samples of abnormal class deer in testing set. (d) Reconstruction results of (c). Normal testing samples are fine-grainedly reconstructed, while the abnormal testing samples (deer) are badly reconstructed. 
 
-## Reference
-ArXiv
